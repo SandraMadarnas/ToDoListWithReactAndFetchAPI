@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+ul{
+    list-style:none;
+    width: 500px;
+    border-radius: 4px;
+    border: 2px solid black;
+    padding: 0px;
+}
+i{
+    color: #383131;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    color: #FFFFFF;
+    margin-block: auto;
+}
+
+.icono{
+    display: none;
+}
+
+li:hover .icono{
+    display: unset;
+
+}
+li{
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid rgb(82, 80, 80);
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+input{
+    width: 100%;
+}
+body{
+    background: black;
+    font-family: 'Star Wars', sans-serif;
+    /* font-family: 'Quicksand', sans-serif; */
+    color:white;
+}
+input:focus{
+    outline: none;
+}
+
+.filaInput{
+    margin-top:50px;
+    margin-bottom: 70px;
+}
+
+
+
+.filaInput button{
+    border:none;
+    border-right: #5e5d5d 4px solid;
+    background: #CECECE;
+    background: -moz-linear-gradient(top, #CECECE 0%, #808080 50%, #C5C5C5 100%);
+    background: -webkit-linear-gradient(top, #CECECE 0%, #808080 50%, #C5C5C5 100%);
+    background: linear-gradient(to bottom, #CECECE 0%, #808080 50%, #C5C5C5 100%);
+}
+
+.filaInput .inputEncendido:hover{
+    background-color: #444444;
+    border: 5px solid #a6f9ff;
+    border-radius: 50px 0 0 50px;
+    text-indent:30px;
+    box-shadow: 0 0 5px #a6f9ff, 0 0 10px #a6f9ff, 0 0 15px #a6f9ff, 0 0 20px #1874ff, 0 0 30px #1874ff, 0 0 40px #1874ff, 0 0 55px #1874ff, 0 0 75px #1874ff, 2px 2px 2px rgba(206,89,55,0.7);
+    color: #FFFFFF;
+    background: #232323;
+}
+
+
+.filaInput .inputEncendido{
+    transform-origin: right;
+    background-color: #444444;
+    border: 5px solid #a6f9ff;
+    border-radius: 50px 0 0 50px;
+    text-indent:30px;
+
+
+    box-shadow: 0 0 10px #a6f9ff7a, 0 0 10px #a6f9ff7a, 0 0 15px #a6f9ff7a, 0 0 20px #1874ff79, 0 0 30px #1874ff79, 0 0 40px #1874ff79, 0 0 55px #1874ff79, 0 0 75px #1874ff79, 2px 2px 2px rgba(206,89,55,0.7);
+    color: #FFFFFF;
+    background: #232323;
+}
+
+h1{
+    font-family: 'Star Wars', sans-serif;
+    font-size: 5em;
+    animation: grow 3s;
+    color: #f0e7e7;
+    
+}
+
+@keyframes grow {
+    from {
+        font-size: 0;
+    }
+    to{
+        font-size: 5em;
+    }
+}
+
+.stroke {
+    /* -webkit-text-fill-color: rgb(243, 246, 239); */
+    -webkit-text-stroke: 7px gold;
+    }
+
+.filaInput button:nth-child(3){
+    border-radius: 0 10px 10px 0;
+}

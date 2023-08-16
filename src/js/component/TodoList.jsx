@@ -5,9 +5,9 @@ const TodoList = () => {
   const [tareas, setTarea] = useState([]);
   const [idForDelete, setIdForDelete] = useState([]);
   const [fetchUrl, setFetchUrl] = useState(
-    "https://assets.breatheco.de/apis/fake/todos/user/nico-dani-sandra"
+    "https://playground.4geeks.com/apis/fake/todos/user/sandramadarnas"
   );
-  const [fetchUser, setFetchUser] = useState("nico-dani-sandra");
+  const [fetchUser, setFetchUser] = useState("sandramadarnas");
 
   useEffect(() => {
     fetch(`${fetchUrl}`)
